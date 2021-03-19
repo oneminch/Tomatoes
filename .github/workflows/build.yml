@@ -14,11 +14,5 @@ jobs:
                   node-version: 8
             - run: npm install -g surge
 
-            - name: Install Packages
-              run: npm install
-
-            - name: Build Project
-              run: npm run build
-
             - name: Deploy Project
               run: surge ./dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
