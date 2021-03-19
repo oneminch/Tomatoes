@@ -1,11 +1,12 @@
 <template>
 	<div id="Home">
 		<!-- Title -->
-		<h2 class="text-2xl font-extrabold m-4 dark:text-gray-100">
-			<span class="text-gray-400 dark:text-gray-500">Work In Progress</span>
-			<br>
-			Current Task
-		</h2>
+		<div class="font-extrabold dark:text-gray-100">
+			<h2 class="text-2xl text-gray-400 dark:text-gray-500">Work In Progress</h2>
+			<div class="w-72 mx-auto my-4 p-2 rounded-lg border-2 border-gray-300 dark:border-gray-600">
+				Current Task
+			</div>
+		</div>
 
 		<!-- Radial progress bar -->
 		<app-radial-progress-bar 
