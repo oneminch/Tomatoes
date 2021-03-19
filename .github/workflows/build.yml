@@ -25,7 +25,6 @@ jobs:
             - name: Build Project
               run: npm run build
 
-            - uses: actions/checkout@v1
             - name: Install Surge
               uses: actions/setup-node@v1
               with:
