@@ -26,9 +26,6 @@ jobs:
               run: npm run build
 
             - name: Install Surge
-              uses: actions/setup-node@v1
-              with:
-                  node-version: ${{ matrix.node-version }}
               run: npm install -g surge
 
             - name: Deploy to Surge
