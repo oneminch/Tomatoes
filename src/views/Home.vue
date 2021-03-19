@@ -1,7 +1,11 @@
 <template>
 	<div id="Home">
 		<!-- Title -->
-		<h2 class="text-3xl font-extrabold m-4 dark:text-gray-100">Current Task</h2>
+		<h2 class="text-2xl font-extrabold m-4 dark:text-gray-100">
+			<span class="text-gray-400 dark:text-gray-500">Work In Progress</span>
+			<br>
+			Current Task
+		</h2>
 
 		<!-- Radial progress bar -->
 		<app-radial-progress-bar 
