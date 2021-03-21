@@ -3,8 +3,8 @@
 		<div  class="w-full h-full max-w-6xl mx-auto"> 
 			<div class="flex h-full relative">
 				<nav class="flex sm:flex-col justify-between absolute sm:top-0 left-0 min-w-92 sm:min-w-0 bottom-0 h-20 w-full items-center sm:w-24 sm:h-auto sm:min-h-112 sm:max-h-1/2 font-bold sm:rounded-xl sm:m-6 sm:py-4 text-gray-100 bg-indigo-500">
-					<router-link to="/" class="p-2 sm:flex hidden focus:ring-4 focus:ring-indigo-600 focus:outline-none w-12 h-12 border-2 border-gray-100 rounded-full my-4 justify-center items-center bg-transparent">
-						<svg class="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+					<router-link to="/" class="p-1 sm:flex hidden focus:ring-4 focus:ring-indigo-600 focus:outline-none w-12 h-12 rounded-md my-4 justify-center items-center bg-transparent">
+						<img class="w-full h-full" src="./assets/logo.svg" alt="App Logo">
 					</router-link>
 
 					<router-link to="/" class="p-4 w-full sm:h-auto h-full hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600">
