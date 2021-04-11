@@ -1,6 +1,6 @@
 <template>
     <!-- Stylized dropdown/select component -->
-    <div class="cursor-pointer relative rounded-lg">
+    <div class="cursor-pointer relative rounded-lg text-center">
         <!-- Custom Left Icon -->
         <div class="icon left-0">
             <slot></slot>
