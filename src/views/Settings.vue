@@ -23,7 +23,7 @@
 							</svg>
 						</app-dropdown>
 
-						<app-button
+						<!-- <app-button
 							@clicked="alerty('Not Implemented Function')"
 							:label="'Add New Pomo Preset'"
 							class="w-10 h-10 rounded-full p-0 flex justify-center items-center m-0 ml-4 text-white bg-indigo-500 border-indigo-500 focus:ring-4 focus:ring-indigo-400 focus:ring-opacity-50"
@@ -31,7 +31,7 @@
 							<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
 							</svg>
-						</app-button>
+						</app-button> -->
 					</div>
 
 				</div>
@@ -86,24 +86,25 @@
 			<hr class="w-full border-1.5 rounded-md border-solid border-gray-200 dark:border-gray-600">
 
 			<div class="w-full my-4 flex justify-between items-center text-gray-900 dark:text-gray-100">
-				<label for="auto-start" class="font-bold text-xl select-none cursor-pointer">
-					Auto Start Next Round
-				</label>
-				
-				<app-toggle id="auto-start" :label="'Auto Start Next Round'" :checked.sync="autoStart"></app-toggle>
-			</div>
-
-			<hr class="w-full border rounded-md border-solid border-gray-200 dark:border-gray-600">
-
-			<div class="w-full my-4 flex justify-between items-center text-gray-900 dark:text-gray-100">
 				<label for="theme" class="font-bold text-xl select-none cursor-pointer">
 					Dark Mode
 				</label>
 				
 				<app-toggle id="theme" :checked.sync="darkMode"></app-toggle>
 			</div>
-
+			
 			<hr class="w-full border rounded-md border-solid border-gray-200 dark:border-gray-600">
+
+			<div class="w-full my-4 flex justify-between items-center text-gray-900 dark:text-gray-100">
+				<label for="auto-start" class="font-bold text-xl select-none cursor-pointer text-gray-400">
+					Auto Start Next Round
+				</label>
+				
+				<app-toggle id="auto-start" :label="'Auto Start Next Round'" :checked.sync="autoStart" :disabled="true"></app-toggle>
+			</div>
+
+
+			<!-- <hr class="w-full border rounded-md border-solid border-gray-200 dark:border-gray-600">
 
 			<div class="w-full my-4 flex justify-between items-center text-gray-900 dark:text-gray-100">
 				<label for="chime" class="font-bold text-xl select-none cursor-pointer">
@@ -111,7 +112,7 @@
 				</label>
 				
 				<app-toggle id="chime" :checked.sync="focusChimeToggle"></app-toggle>
-			</div>
+			</div> -->
 
 			<!-- <hr class="w-full border rounded-md border-solid border-gray-200 dark:border-gray-600"> -->
 

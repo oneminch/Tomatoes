@@ -9,25 +9,11 @@ const defaultValues = [
 		focusDuration: 1500,
 	},
 	{
-		name: "Second",
+		name: "50-10-15",
 		rounds: 2,
 		longBreakDuration: 900,
 		shortBreakDuration: 600,
 		focusDuration: 3000,
-	},
-	{
-		name: "Third",
-		rounds: 2,
-		longBreakDuration: 120,
-		shortBreakDuration: 60,
-		focusDuration: 300,
-	},
-	{
-		name: "Test",
-		rounds: 2,
-		longBreakDuration: 7,
-		shortBreakDuration: 5,
-		focusDuration: 10,
 	},
 ];
 

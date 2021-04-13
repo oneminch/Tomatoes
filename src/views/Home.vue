@@ -2,8 +2,9 @@
 	<div id="Home">
 		<!-- Title -->
 		<div class="font-extrabold dark:text-gray-100">
-			<div class="w-72 mx-auto my-4 p-2 rounded-lg border-2 border-gray-300 dark:border-gray-600">
-				Current Task - Work In Progress
+			<div class="w-72 mx-auto my-4 p-2 rounded-lg text-xl">
+				<!-- Current Task - Work In Progress -->
+				Pomodoro
 			</div>
 		</div>
 

@@ -6,6 +6,7 @@
             type="checkbox"
             v-bind="$attrs"
             :checked="checked"
+            :disabled="disabled"
             @change="$emit('update:checked', $event.target.checked)"
         />
         <span class="switch dark:border-gray-500 p-1 flex flex-shrink-0 items-center transition-colors bg-gray-300 dark:bg-gray-500 cursor-pointer"></span>
@@ -21,6 +22,11 @@ export default {
     props: {
         // Toggle value: On / Off
         checked: {
+            type: Boolean,
+            required: true,
+        },
+        // Disabled toggle
+        disabled: {
             type: Boolean,
             required: true,
         },
@@ -59,7 +65,7 @@ input:checked + .switch {
 }
 
 input:checked + .switch::before {
-    background-color: var(--indigo);
+    /* background-color: var(--indigo); */
     background-color: var(--light-gray);
     transform: translateX(100%);
 }
@@ -69,7 +75,7 @@ input:disabled + .switch {
 }
 
 input:disabled + .switch::before {
-    background-color: var(--dark-gray);
+    background-color: var(--indigo);
     border-color: var(--dark-gray);
 }
 

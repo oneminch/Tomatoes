@@ -11,7 +11,7 @@ const defaultValues = {
 		toggle: false,
 	},
 	darkMode: false,
-	autoStart: false,
+	autoStart: true,
 };
 
 const ls = initLocalStorage("preferences", defaultValues);
