@@ -1,4 +1,4 @@
-# pomodoro
+# Pomodoro
 
 Pomodoro timer (Vue + TailwindCSS)
 
