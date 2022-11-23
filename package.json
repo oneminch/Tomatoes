@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "easytimer.js": "^4.3.2",
-    "vue": "^2.6.11",
+    "vue": "^3.2.45",
     "vue-ellipse-progress": "^1.3.0",
     "vue-meta": "^2.4.0",
     "vue-router": "^3.5.1",
