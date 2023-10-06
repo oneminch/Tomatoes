@@ -2,6 +2,7 @@
 
 Pomodoro timer (Vue + TailwindCSS)
 
+![Screenshot](/public/screenshot.png)
 
 ## Development
 
